@@ -1,0 +1,937 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16233 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Universidad/Especialidad/Dispositivos Hapticos/Unity_Connectivity-Implementation-master/Unity_Connectivity-Implementation-master
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+53868
+Successfully changed project path to: D:/Universidad/Especialidad/Dispositivos Hapticos/Unity_Connectivity-Implementation-master/Unity_Connectivity-Implementation-master
+D:/Universidad/Especialidad/Dispositivos Hapticos/Unity_Connectivity-Implementation-master/Unity_Connectivity-Implementation-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21648] Host "[IP] 172.29.14.166 [Port] 0 [Flags] 2 [Guid] 3596355408 [EditorId] 3596355408 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BDSIMMDK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21648] Host "[IP] 172.29.14.166 [Port] 0 [Flags] 2 [Guid] 3596355408 [EditorId] 3596355408 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BDSIMMDK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 20.18 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Universidad/Especialidad/Dispositivos Hapticos/Unity_Connectivity-Implementation-master/Unity_Connectivity-Implementation-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   NVIDIA
+    VRAM:     5955 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008449 seconds.
+- Loaded All Assemblies, in  0.497 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.446 seconds
+Domain Reload Profiling: 941ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (144ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (447ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.810 seconds
+Refreshing native plugins compatible for Editor in 12.76 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.010 seconds
+Domain Reload Profiling: 1817ms
+	BeginReloadAssembly (231ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (396ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1010ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (740ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (209ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 21.27 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (211.4 KB). Loaded Objects now: 3533.
+Memory consumption went from 125.8 MB to 125.6 MB.
+Total: 16.387700 ms (FindLiveObjects: 0.306600 ms CreateObjectMapping: 0.451500 ms MarkObjects: 15.280100 ms  DeleteObjects: 0.348100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 259294.139915 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6723682988c6fcdd81ae7f9e9eaba12b') in 0.056235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 34.007749 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cabad6498f120661d8cf7635632794') in 0.005442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.594507 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ac06c16b7dd284bb9b7e6baf54de29') in 0.007300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.798433 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421996548f141830990e4968256adf78') in 0.005650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 5.311582 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56946f2ef855ca30e6c762da5e95e11b') in 0.005397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 67.302700 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05ec3fdf48f60960a48a2315890ca56') in 0.005398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.838979 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c79a3ba2db60da93c8d8f4229186d3') in 0.005432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 16.190224 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bd30c0f4c6ce76a766a1ea7044c1ab') in 0.005312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 92.810254 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c75b329064d7cad75843342d9bb653') in 0.005875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 4.909851 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd52277110950e573a08db878b4dde6') in 0.005341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 13.448340 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ad7365c86d1940f2da11db5ce1cd2d') in 0.005530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.858063 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349803ffff84c929c3e0983ea64b0d2d') in 0.005341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 28.905687 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dc1592fa3cf72b16d2f0eb4c0f1974') in 0.005654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.019484 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df7b24ab61d90ae6ba9594735f06c7f') in 0.005324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.424860 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cd93a8b0a40e3dba98407e8248a5a0') in 0.005242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 33.606341 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1c2617d3958b8599fbd712ecede4ee') in 0.005987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 10.453603 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfb2ae9ddfee346e45b4eb7c0837b78') in 0.005512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.252011 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76fdd9752300405486e71ff81ee9460') in 0.005363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.787047 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1791637d92abf61c17a07ca0c22920f') in 0.005408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 8.730559 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c90d2247f07d1d164ec32b441520c2') in 0.005634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.523689 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c95a957dda1e311b254e51e81b47989') in 0.005322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 8.903496 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcc7a1e292637a18dece6718c8ccd84') in 0.005286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.217446 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6ad3d2da27dce5381b2020602b8cb9') in 0.005324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.380418 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318c0912b2532ff5acecd023228a70ec') in 0.005549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.133902 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557c6bf8d0a972dfb6477a6f084989c3') in 0.005633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 4.362322 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65031e48032a0b7078b597bb4025725') in 0.009646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 5.172297 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e0eb593aec0382967a55ce7f26f888') in 0.005874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.283112 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989db5ae675c0e7fc774e4e7c0b471c7') in 0.005971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.199106 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062aa16e72ec94aaa834f7bd6da9045e') in 0.006667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.644573 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924851cbb7b6302080a5cfec051431a9') in 0.006160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 51.683248 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e812dd294b8394167ebc4a136169f9') in 0.007336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 8.648210 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e295886a69abdd20c0adf9e6427f118') in 0.008449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 16.673409 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e04ac3d00b0d111bb17bf0899c99de') in 0.005083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 1.840092 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37ad924bf49becc9f5d8e354b70ff5c') in 0.005626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 5.420762 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6663600419d6baeb693b53d695298a5') in 0.005204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 5.590514 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3692c60f199c94bc60b4986c56bb5ad') in 0.005564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 1.462222 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f2360f691148565aaf772d3b68c741') in 0.005527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 10.542075 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e8a78972fddfd750dceb82ec4e9124') in 0.005077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 10.366703 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30364edefd78384cbf27af66aa5c150') in 0.005494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.262530 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94868a70c2a422f6e5733deedad2d80e') in 0.005477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 22.785765 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b987553fba14d63de4fff9579b962dc') in 0.005441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 12.131351 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcb8b39fe346ab8da6de6be59a19ef0') in 0.005356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.782537 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cedf2a3ca394755c50d5747dbe4c82') in 0.005289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 1.430668 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7046c308ba19011bd14b7fc149b23db2') in 0.005736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.435779 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f43f7c6e60478431790ce5826184c7b') in 0.005408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 1.147181 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ea90268d28806fe551dfd0c1780edf') in 0.005198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 1.658653 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe0cb9a2ad5c6134b2898ff38133d72') in 0.005529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.065853 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5388c300498704a98b4cd6dccb4f5e') in 0.007363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 22.274645 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f80a657a9c940ab099b645c91fdc98') in 0.005232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 0.642090 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87c2f412024a09ebd6048ce3a77317b') in 0.005307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.209867 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42cee9421a0cc9fd7177dd5dd6b37cb') in 0.006386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 4.233672 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f6f533101ba073961e63da52b8105f') in 0.005360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.962604 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fb47ff309ae19338b03a32d5203b7a') in 0.006414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 1.413510 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cca15c153c780ddf53bca9ff8734bab') in 0.005520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 7.966034 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cc5ccdacbe1d0b08ce406643c5df20') in 0.005423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 0.534864 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53769df1850563d50cf576b708da036f') in 0.006002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.078759 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa83a1dd7117961b6b5864cbb3643a2') in 0.005287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 12.535022 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21aecfaa8074b9af76dded045ede4f2') in 0.005261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 1.963916 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518f34ccda273ac36fcea1be0fecd440') in 0.005452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 14.49 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.353 seconds
+Domain Reload Profiling: 1997ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1354ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (804ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (262ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 18.17 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (186.6 KB). Loaded Objects now: 3539.
+Memory consumption went from 117.2 MB to 117.0 MB.
+Total: 10.467200 ms (FindLiveObjects: 0.376300 ms CreateObjectMapping: 0.282300 ms MarkObjects: 9.542400 ms  DeleteObjects: 0.263200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.320474 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09da11fd38cfcfe6675dd3e88392a92a') in 0.050634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 12.440238 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ea4db0d7d5d51764b8a35e22d31104') in 0.005422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.650079 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50966a3b61abce24621f46f0cd4092b4') in 0.561974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 1.449299 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1addf272b4236c15e72604d35b8148df') in 0.005327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 6.642703 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e97861c39f4bc5caf7c025fcad2da5') in 0.005465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 4.499933 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dec6914452dab8ea8606e6a07ed9d9e') in 0.005470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.581 seconds
+Refreshing native plugins compatible for Editor in 13.47 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.368 seconds
+Domain Reload Profiling: 1947ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (373ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (721ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (230ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 12.72 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (186.8 KB). Loaded Objects now: 3542.
+Memory consumption went from 117.2 MB to 117.0 MB.
+Total: 8.462100 ms (FindLiveObjects: 0.287000 ms CreateObjectMapping: 0.229100 ms MarkObjects: 7.706500 ms  DeleteObjects: 0.238600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.397678 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c92610227a813789fddc52c2016a9ac') in 0.059019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 10.236729 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2896dd7e3893351b96d4afb5ee28eb3e') in 0.005296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 0.843557 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0303d1c481c02b8f3eb5a8273ac6a3a6') in 0.005430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 7.408553 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f2933113b089ff6a97d433d8bd7db5') in 0.005291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 13.225686 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daadeeaecbea94f9835d2fde3f630132') in 0.005555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 2.494814 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d2be80ab9086230d3f22655e4fb766') in 0.005288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 1.962419 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df3e199b72c4b63db5a912590f15004') in 0.008421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 4.656789 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaf45e99c289ea099c0d95b216a0a77') in 0.005317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 15.631971 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2374b9597600f86f0c9f325f3159c2') in 0.005648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.506944 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a23f25bbc873b4a4b5410d62ccea2f') in 0.005424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.002542 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1462877facd46a471ad154b8736498bf') in 0.005653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 11.350621 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673635ad87f527d5e370e18adda8729e') in 0.005420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
+========================================================================
+Received Import Request.
+  Time since last request: 3.233079 seconds.
+  path: Assets/Scenes/Canvas.prefab
+  artifactKey: Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Canvas.prefab using Guid(e665523118d8f2844905bfd4df2eca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008e2c40f302d93ec01948dc752591f5') in 0.005977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 179
