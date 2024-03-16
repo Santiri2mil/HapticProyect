@@ -1,12 +1,16 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class HIP_EF : MonoBehaviour
 {
     // establish Haptic Manager and IHIP objects
     public GameObject hapticManager;
     public GameObject IHIP;
+
+    //User Interface
+    public Text px, py, pz, angleResult, peso, hy, d1;
+    public Slider massaObjeto;
 
     // get haptic device information from the haptic manager
     private HM_EF myHapticManager;
@@ -73,8 +77,8 @@ public class HIP_EF : MonoBehaviour
         YmassDistance = masaDePolea.transform.position.y;
         myHapticManager = (HM_EF)hapticManager.GetComponent(typeof(HM_EF));
         //rbMasa.useGravity = false;
-        distance1 = 7.5f;
-        distance2 = 9.25f;
+        
+        distance2 = 8.5f;
         hypotenuse = Mathf.Sqrt((distance1 *distance1) + (distance2 *distance2));
         Debug.Log("hipotenusa: " + hypotenuse);
         senF = distance1 / hypotenuse;
@@ -85,6 +89,7 @@ public class HIP_EF : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+
         if(Application.targetFrameRate!=30)
         {
             Application.targetFrameRate = 30;
@@ -92,9 +97,9 @@ public class HIP_EF : MonoBehaviour
         // get haptic device to be used
         int hapticsFound = myHapticManager.GetHapticDevicesFound();
         hapticDevice = (hapticDevice > -1 && hapticDevice < hapticsFound) ? hapticDevice : hapticsFound - 1;
-        
 
-
+        rbMasa.mass = massaObjeto.value;//SLIDER DE MASA!!!!!!!!!!
+        peso.text = (rbMasa.mass*9,8).ToString();
         // get haptic device variables
         position = myHapticManager.GetPosition(hapticDevice);
         button0 = myHapticManager.GetButtonState(hapticDevice, 0);
@@ -109,6 +114,9 @@ public class HIP_EF : MonoBehaviour
 
         float previousPopsition = Ydistance;
         Ydistance = IHIP.transform.localPosition.y;//Ubicación del haptico
+        py.text = "Y: "+Mathf.Round( Ydistance);
+        px.text = "X: " + IHIP.transform.localPosition.x;
+        pz.text = "Z: " + IHIP.transform.localPosition.z;
 
         YmassDistance = masaDePolea.transform.position.y;//Ubicación de la masa
         ////Calculos
@@ -120,52 +128,54 @@ public class HIP_EF : MonoBehaviour
         //teta = Mathf.Asin(senF);//Angulo polea masa
         //Debug.Log("teta: " + teta * Mathf.Rad2Deg);
 
-        if (previousPopsition != Ydistance)
+        if (previousPopsition > Ydistance&& position.y > -2 && position.y < 9)//Bajamos la masa si movemos el haptico hacia arriba
         {
+            rbMasa.useGravity = false;
+            IHIP.transform.position = new Vector3(0, position.y, 0);//Mover indicador en los limites
+            transform.position = new Vector3(0, position.y, 0);//Mantener solo en Y
+            if (masaDePolea.transform.position.y < 8)
+                masaDePolea.transform.position = new Vector3(masaDePolea.transform.position.x, masaDePolea.transform.position.y + Mathf.Abs(Ydistance) * Time.deltaTime, masaDePolea.transform.position.z);
+            else if (masaDePolea.transform.position.y >= 8)
+                masaDePolea.transform.position = new Vector3(masaDePolea.transform.position.x, 8, 0);
+
             cambioPocision = true;
         }
-        if(previousPopsition<Ydistance)
+        else if(previousPopsition<Ydistance)
         {
             cambioPocision = false;
-            masaDePolea.transform.position = new Vector3(masaDePolea.transform.position.x, masaDePolea.transform.position.y - Mathf.Abs(-Ydistance) * Time.deltaTime, masaDePolea.transform.position.z);
+            masaDePolea.transform.position = new Vector3(masaDePolea.transform.position.x, masaDePolea.transform.position.y - Mathf.Abs(Ydistance) * Time.deltaTime, masaDePolea.transform.position.z);
+            rbMasa.useGravity = true;
+        }
+        else
+        {
+            rbMasa.useGravity = false;
+        }
+        previousPopsition = Ydistance;
+
+        //CALCULOS FISICOS
+        //massDistancceDiference = Ydistance - 4.5f;
+        distance1 = Mathf.Abs(9.3f-YmassDistance);
+        d1.text = distance1.ToString();
+        //.Log("Distancia del triangulo: " + distance1);
+        hypotenuse = Mathf.Sqrt((distance1 * distance1) + (distance2 * distance2));
+        hy.text = hypotenuse.ToString();
+        senF = distance1 / hypotenuse;
+        teta = Mathf.Asin(distance1 / hypotenuse) *Mathf.Rad2Deg;//Angulo polea masa
+        angleResult.text = teta.ToString();
+
+        // update position
+        if (position.y>-2&&position.y<9)//Limite de haptico
+        {
+
+            //moveMass(cambioPocision);
+            IHIP.transform.position = new Vector3(0, position.y, 0);//Mover indicador en los limites
+            transform.position = new Vector3(0, position.y, 0);//Mantener solo en Y
+
+            //Debug.Log("teta: " + teta * Mathf.Rad2Deg);
+            cambioPocision = false;
 
         }
         
-        previousPopsition = Ydistance;
-       
-
-       
-        // update position
-        if (position.y>-8&&position.y<4.1)//Limite de haptico
-        {
-
-
-            //IHIP.transform.position = new Vector3(0, 0, 0);//Mover indicador en los limites
-            //transform.position = new Vector3(0, 0, 0);//Mantener solo en Y
-
-            //rbMasa.useGravity = false;
-            IHIP.transform.position = new Vector3(0, position.y, 0);//Mover indicador en los limites
-            transform.position = new Vector3(0, position.y, 0);//Mantener solo en Y
-            moveMass(cambioPocision);
-
-            distance1 = Mathf.Abs(massDistancceDiference);
-            Debug.Log("Distancia del triangulo: " + distance1);
-            senF = distance1 / hypotenuse;
-            teta = Mathf.Asin(senF);//Angulo polea masa
-            Debug.Log("teta: " + teta * Mathf.Rad2Deg);
-            cambioPocision = false;
-            //if (button0)
-            //{
-                
-
-            //}
-            //if(!button0)
-            //{
-            //    rbMasa.useGravity = true;
-            //    Debug.Log("Masa con gravedad");
-            //    rbMasa.mass = originalmass;
-            //}
-        }
         
 
         // change material color
@@ -200,8 +210,13 @@ public class HIP_EF : MonoBehaviour
 
     public void moveMass(bool canMove)
     {
+
         //massDistancceDiference = Ydistance-YmassDistance;
-        massDistancceDiference = Ydistance - 4.5f;
+
+        
+        //pruebas "gravedad"
+
+
 
         //Debug.Log("Diferencia masa y cuerda: "+massDistancceDiference);
         //Debug.Log("Diferencia cuerda y polea: " + massDistancceDiference);
@@ -210,6 +225,7 @@ public class HIP_EF : MonoBehaviour
         {
            
             masaDePolea.transform.position = new Vector3(masaDePolea.transform.position.x, masaDePolea.transform.position.y + Mathf.Abs(Ydistance )* Time.deltaTime, masaDePolea.transform.position.z);
+            rbMasa.useGravity = false;
 
         }
         //Debug.Log("Distancia recorrida: "+masaDePolea.transform.position.y + Mathf.Abs(massDistancceDiference));

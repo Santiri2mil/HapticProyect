@@ -37,12 +37,13 @@ public class HM_EF : MonoBehaviour
     public float TensionY, TensionX;
     public float FuerzaY, FuerzaX;
     public float angulo;
-    
+    public float FuerzaActualizada;
     //public ValorPeso;
     public Rigidbody MasaObjeto;
     public float distanciaHorizontal;
 
-
+    public Text tension;
+    
     // Use this for initialization
     void Start()
     {
@@ -80,13 +81,14 @@ public class HM_EF : MonoBehaviour
     void Update()
     {
         Mass = MasaObjeto.mass;//MAsa del Objeto
+        FuerzaY = (Mass * 9.81f) / 2;//FUERZA APLICADA AL SISTEMA
         //FuerzaY = (Mass * 9.8f) / 2;//FUERZA APLICADA AL SISTEMA
         // Exit application
         if (Input.GetKey(KeyCode.Escape))
         {
             Application.Quit();
         }
-        
+        tension.text = (FuerzaActualizada ).ToString();
     }
 
     // OnDestroy is called when closing application
@@ -112,6 +114,7 @@ public class HM_EF : MonoBehaviour
                 
                 // get haptic positions and convert them into scene positions
                 position[i] = workspace * HapticPluginImport.GetHapticsPositions(myHapticPlugin, i);
+
                 // get haptic buttons
                 button0[i] = HapticPluginImport.GetHapticsButtons(myHapticPlugin, i, 1);
                 button1[i] = HapticPluginImport.GetHapticsButtons(myHapticPlugin, i, 2);
@@ -122,13 +125,13 @@ public class HM_EF : MonoBehaviour
                 tempDesiredPos[i] = (1 / workspace) * myHIP[i].desiredPosition;
 
                     //Aplicamos fuerza
-                    pressButton = true;
-                    //Debug.Log(Mass);
-                    FuerzaY = (Mass*9.8f)/2;//FUERZA APLICADA AL SISTEMA
-
-                    Vector3 Fuerza = new Vector3(0, FuerzaY, 0);
+                pressButton = true;
+                //Debug.Log(Mass);
+                FuerzaActualizada=FuerzaY/(myHIP[i].senF*2);
+                
+                Vector3 Fuerza = new Vector3(0, FuerzaActualizada, 0);
                     //Fuerza = myHIP[i].mass * Fuerza;
-                    HapticPluginImport.SetHapticsForce(myHapticPlugin, i, Fuerza);
+                HapticPluginImport.SetHapticsForce(myHapticPlugin, i, Fuerza);
                     //myHIP[i].moveMass();
 
                 
